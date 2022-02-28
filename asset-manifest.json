@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/equalizer-landing-page/static/css/main.0f4832fc.css",
+    "main.css": "/equalizer-landing-page/static/css/main.a687c923.css",
     "main.js": "/equalizer-landing-page/static/js/main.62d99c1f.js",
     "static/media/bg-main-tablet.png": "/equalizer-landing-page/static/media/bg-main-tablet.25e488fd235ddef4319d.png",
     "static/media/bg-main-mobile.png": "/equalizer-landing-page/static/media/bg-main-mobile.5c908035d1b50f7aac83.png",
@@ -13,11 +13,11 @@
     "static/media/icon-twitter.svg": "/equalizer-landing-page/static/media/icon-twitter.ef2d5a78d105d4f7ab497930c2704bac.svg",
     "index.html": "/equalizer-landing-page/index.html",
     "static/media/icon-facebook.svg": "/equalizer-landing-page/static/media/icon-facebook.8c900fe0021e1d5d969f9942eb90c7f8.svg",
-    "main.0f4832fc.css.map": "/equalizer-landing-page/static/css/main.0f4832fc.css.map",
+    "main.a687c923.css.map": "/equalizer-landing-page/static/css/main.a687c923.css.map",
     "main.62d99c1f.js.map": "/equalizer-landing-page/static/js/main.62d99c1f.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f4832fc.css",
+    "static/css/main.a687c923.css",
     "static/js/main.62d99c1f.js"
   ]
 }
