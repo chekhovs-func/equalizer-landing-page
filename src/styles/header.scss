@@ -1,0 +1,100 @@
+// Mobile
+.h-wrapper {
+  .h-text {
+    margin: 40px 0 0 24px;
+    max-width: 327px;
+    .h-logo {
+      margin-bottom: 64px;
+    }
+    .h-title {
+      margin-bottom: 20px;
+
+      font-size: 40px;
+      line-height: 48px;
+      font-weight: 700;
+      letter-spacing: -0.45px;
+    }
+    .h-body {
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 700;
+    }
+  }
+  .h-background {
+    display: none;
+  }
+}
+
+// Tablet
+@media only screen and (min-width: 768px) {
+  .h-wrapper {
+    min-width: 100vw;
+    .h-text {
+      margin: 62px 0 0 39px;
+      max-width: 500px;
+      .h-logo {
+        margin-bottom: 95px;
+      }
+      .h-title {
+        margin-bottom: 28px;
+
+        font-size: 64px;
+        line-height: 64px;
+        font-weight: 700;
+        letter-spacing: -0.73px;
+      }
+      .h-body {
+        font-size: 18px;
+        line-height: 28px;
+        font-weight: 700;
+      }
+    }
+    .h-background {
+      position: absolute;
+      top: -32px;
+      right: -32px;
+
+      display: block;
+
+      width: 266px;
+      height: 400px;
+    }
+  }
+}
+
+// Desktop
+@media only screen and (min-width: 1025px) {
+  .h-wrapper {
+    min-width: 100vw;
+    .h-text {
+      margin: 67px 0 0 165px;
+      max-width: 850px;
+      .h-logo {
+        margin-bottom: 127px;
+      }
+      .h-title {
+        margin-bottom: 41px;
+
+        font-size: 88px;
+        line-height: 88px;
+        font-weight: 700;
+        letter-spacing: -1px;
+      }
+      .h-body {
+        font-size: 20px;
+        line-height: 34px;
+        font-weight: 400;
+      }
+    }
+    .h-background {
+      position: absolute;
+      top: -40px;
+      right: 0;
+
+      display: block;
+
+      width: 312px;
+      height: 468px;
+    }
+  }
+}

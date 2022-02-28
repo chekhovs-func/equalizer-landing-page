@@ -11,13 +11,20 @@
   user-select: none;
 }
 
+body {
+  overflow-x: hidden;
+
+  background-color: #fcfaf9;
+}
+
 .grid {
-  display: grid;
   grid-template-areas:
     'Header'
     'Main'
     'Footer';
-  grid-template-rows: 525px 1024px 348px;
+  grid-template-rows: repeat(3, 1fr);
 
-  width: 100%;
+  display: grid;
+
+  width: auto;
 }
