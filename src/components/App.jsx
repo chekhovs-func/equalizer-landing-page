@@ -7,7 +7,7 @@ export default function App() {
   return (
     <section className='grid'>
       <Header />
-      {/* <Main /> */}
+      <Main />
       {/* <Footer /> */}
     </section>
   );

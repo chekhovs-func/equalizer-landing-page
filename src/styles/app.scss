@@ -17,14 +17,29 @@ body {
   background-color: #fcfaf9;
 }
 
+// Mobile
 .grid {
   grid-template-areas:
     'Header'
     'Main'
     'Footer';
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: 524px 1024px 397px;
 
   display: grid;
 
   width: auto;
+}
+
+// Tablet
+@media only screen and (min-width: 768px) {
+  .grid {
+    grid-template-rows: 632px 916px 233px;
+  }
+}
+
+// Desktop
+@media only screen and (min-width: 1440px) {
+  .grid {
+    grid-template-rows: 647px 928px 257px;
+  }
 }

@@ -1,0 +1,206 @@
+@mixin button($width, $font-color, $background-color) {
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+
+  margin: auto;
+  border-style: none;
+  border-radius: 12px;
+  width: $width;
+  height: 61px;
+
+  background-color: $background-color;
+  cursor: pointer;
+
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  letter-spacing: -0.18px;
+  color: $font-color;
+  .m-button-icon {
+    margin-right: 8px;
+  }
+}
+
+// Mobile
+.m-wrapper {
+  flex-direction: column;
+
+  display: flex;
+
+  padding-top: 98px;
+  .m-demo {
+    position: absolute;
+    top: 524px;
+
+    align-self: center;
+
+    width: 209px;
+    height: 430px;
+  }
+  .m-background-card {
+    justify-content: center;
+
+    display: flex;
+
+    border-radius: 12px;
+    height: 420px;
+
+    background-color: #191826;
+    .m-background {
+      width: 280px;
+      height: 420px;
+    }
+  }
+  .m-price-card {
+    position: absolute;
+    top: 1002px;
+
+    border-radius: 12px;
+    width: auto;
+    height: fit-content;
+    padding: 48px 36px;
+
+    background-color: #fa7453;
+
+    font-weight: 700;
+    color: #fcfaf9;
+    .m-title {
+      margin-bottom: 16px;
+
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .m-body {
+      margin-bottom: 8px;
+
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .m-subtitle {
+      .m-span {
+        margin-right: 16px;
+
+        font-size: 65px;
+        line-height: 52px;
+      }
+      align-items: center;
+
+      display: flex;
+
+      margin-bottom: 32px;
+
+      font-size: 20px;
+      line-height: 32px;
+      letter-spacing: -0.2px;
+    }
+    .m-ios-button {
+      @include button(296px, #fcfaf9, #191826);
+      margin-bottom: 16px;
+    }
+    .m-android-button {
+      @include button(296px, #191826, #fcfaf9);
+    }
+  }
+}
+
+// Tablet
+@media only screen and (min-width: 768px) {
+  .m-wrapper {
+    padding: 138px 33px 0 39px;
+    .m-demo {
+      z-index: 1;
+
+      top: 632px;
+      left: 97px;
+
+      width: 270px;
+      height: 556px;
+    }
+    .m-background-card {
+      margin-inline: auto;
+
+      width: 100%;
+      height: 600px;
+
+      .m-background {
+        position: absolute;
+        top: 739px;
+
+        clip-path: inset(31px 0 0 0);
+      }
+    }
+    .m-price-card {
+      z-index: 2;
+
+      top: 920px;
+      right: 97px;
+
+      width: 399px;
+      height: 546px;
+      padding: 48px;
+      .m-title {
+        margin-bottom: 12px;
+      }
+    }
+  }
+}
+
+// Desktop
+@media only screen and (min-width: 1440px) {
+  .m-wrapper {
+    padding: 213px 165px 0 165px;
+    .m-demo {
+      top: 647px;
+      left: 267px;
+
+      width: 312px;
+      height: 642px;
+    }
+    .m-background-card {
+      height: 600px;
+      .m-background {
+        top: 820px;
+        left: 501px;
+
+        width: 312px;
+        height: 468px;
+
+        clip-path: inset(40px 0 0 0);
+      }
+    }
+    .m-price-card {
+      top: 950px;
+      right: 267px;
+
+      width: 446px;
+      height: 625px;
+      padding: 58px 56px;
+
+      .m-title {
+        margin-bottom: 23px;
+
+        font-size: 40px;
+        line-height: 52px;
+      }
+      .m-body {
+        margin-bottom: 38px;
+
+        font-size: 20px;
+        line-height: 34px;
+        font-weight: 400;
+      }
+      .m-subtitle {
+        margin-bottom: 46px;
+      }
+      .m-ios-button {
+        @include button(333px, #fcfaf9, #191826);
+        margin-bottom: 16px;
+      }
+      .m-android-button {
+        @include button(333px, #191826, #fcfaf9);
+      }
+    }
+  }
+}

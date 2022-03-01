@@ -1,10 +1,12 @@
 // Mobile
 .h-wrapper {
+  padding: 40px 0 0 24px;
   .h-text {
-    margin: 40px 0 0 24px;
     max-width: 327px;
     .h-logo {
       margin-bottom: 64px;
+
+      cursor: pointer;
     }
     .h-title {
       margin-bottom: 20px;
@@ -29,11 +31,13 @@
 @media only screen and (min-width: 768px) {
   .h-wrapper {
     min-width: 100vw;
+    padding: 62px 0 0 39px;
     .h-text {
-      margin: 62px 0 0 39px;
       max-width: 500px;
       .h-logo {
         margin-bottom: 95px;
+
+        cursor: pointer;
       }
       .h-title {
         margin-bottom: 28px;
@@ -63,14 +67,16 @@
 }
 
 // Desktop
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1440px) {
   .h-wrapper {
     min-width: 100vw;
+    padding: 67px 0 0 165px;
     .h-text {
-      margin: 67px 0 0 165px;
       max-width: 850px;
       .h-logo {
         margin-bottom: 127px;
+
+        cursor: pointer;
       }
       .h-title {
         margin-bottom: 41px;
