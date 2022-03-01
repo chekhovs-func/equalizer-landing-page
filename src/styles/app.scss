@@ -28,12 +28,21 @@ body {
   display: grid;
 
   width: auto;
+
+  background-image: url(../../public/assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position-x: left 12px;
+  background-position-y: top -206px;
 }
 
 // Tablet
 @media only screen and (min-width: 768px) {
   .grid {
     grid-template-rows: 632px 916px 233px;
+
+    background-image: url(../../public/assets/bg-main-tablet.png);
+    background-position-x: right -90px;
+    background-position-y: top -260px;
   }
 }
 
@@ -41,5 +50,9 @@ body {
 @media only screen and (min-width: 1440px) {
   .grid {
     grid-template-rows: 647px 928px 257px;
+
+    background-image: url(../../public/assets/bg-main-desktop.png);
+    background-position-x: right -190px;
+    background-position-y: top -260px;
   }
 }
