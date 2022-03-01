@@ -99,8 +99,15 @@
       @include button(296px, #fcfaf9, #191826);
       margin-bottom: 16px;
     }
+
+    .m-ios-button:hover {
+      background-color: #66e2dc;
+    }
     .m-android-button {
       @include button(296px, #191826, #fcfaf9);
+    }
+    .m-android-button:hover {
+      background-color: #ffb964;
     }
   }
 }
