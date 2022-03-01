@@ -115,7 +115,7 @@
 // Tablet
 @media only screen and (min-width: 768px) {
   .m-wrapper {
-    padding: 138px 33px 0 39px;
+    padding: 138px 33px 0 39px;;
     .m-demo {
       z-index: 1;
 
@@ -150,6 +150,19 @@
       .m-title {
         margin-bottom: 12px;
       }
+    }
+  }
+}
+
+// Tablet - Landscape
+@media only screen and (min-width: 894px) {
+  .m-wrapper {
+    .m-demo {
+      left: 196px;
+    }
+
+    .m-price-card {
+      right: 196px;
     }
   }
 }
