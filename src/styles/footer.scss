@@ -1,0 +1,72 @@
+// Mobile
+.f-wrapper {
+  padding: 64px 0 0 24px;
+
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+}
+.f-logo {
+  margin-bottom: 32px;
+
+  cursor: pointer;
+}
+.f-body {
+  width: 327px;
+}
+.f-email {
+  margin-bottom: 64px;
+
+  cursor: pointer;
+}
+.f-icon-wrapper {
+  justify-content: space-between;
+
+  display: flex;
+
+  width: 100px;
+  .f-icon {
+    cursor: pointer;
+  }
+}
+
+// Tablet
+@media only screen and (min-width: 768px) {
+  .f-wrapper {
+    padding: 5px 35px 85px 35px;
+    width: 696px;
+    .f-email {
+      margin-bottom: 0px;
+    }
+    .f-icon-wrapper {
+      position: absolute;
+      right: 39px;
+      top: 1647px;
+    }
+  }
+}
+
+// Desktop
+@media only screen and (min-width: 1440px) {
+  .f-wrapper {
+    flex-direction: row;
+    justify-content: left;
+
+    display: flex;
+    padding: 87px 165px 91px 165px;
+    width: auto;
+    height: 257px;
+    .f-text-wrapper {
+      margin-left: 138px;
+
+      font-weight: 400;
+      .f-email {
+        font-weight: 700;
+      }
+    }
+    .f-icon-wrapper {
+      right: 165px;
+      top: 1691px;
+    }
+  }
+}

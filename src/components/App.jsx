@@ -8,7 +8,7 @@ export default function App() {
     <section className='grid'>
       <Header />
       <Main />
-      {/* <Footer /> */}
+      <Footer />
     </section>
   );
 }
