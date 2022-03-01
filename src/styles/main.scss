@@ -154,19 +154,6 @@
   }
 }
 
-// Tablet - Landscape
-@media only screen and (min-width: 894px) {
-  .m-wrapper {
-    .m-demo {
-      left: 196px;
-    }
-
-    .m-price-card {
-      right: 196px;
-    }
-  }
-}
-
 // Desktop
 @media only screen and (min-width: 1440px) {
   .m-wrapper {
